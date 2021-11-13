@@ -1,0 +1,16 @@
+name: jjpack
+description: Zip and Destroy
+version: 1.0.0
+repository: https://github.com/jagomf/jjpack
+
+environment:
+  sdk: '>=2.14.4 <3.0.0'
+
+
+# dependencies:
+#   path: ^1.8.0
+
+dev_dependencies:
+  lints: ^1.0.0
+dependencies: 
+  archive: ^3.1.6

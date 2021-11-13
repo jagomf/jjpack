@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dart",
+			"command": "dart",
+			"args": [
+				"compile",
+				"exe",
+				"bin/jjpack.dart",
+				"-o",
+				"build/jjpack.exe"
+			],
+			"problemMatcher": [],
+			"label": "Compile (exe)"
+		}
+	]
+}
