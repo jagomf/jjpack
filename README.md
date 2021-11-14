@@ -45,9 +45,9 @@ jjscript.exe nrv nodelete
 
 ## Build project
 
-1. This project is build on [Dart](https://dart.dev); make sure you have the [Dart SDK](https://dart.dev/get-dart) installed. If you don't, go get it.
+1. This project is built in [Dart](https://dart.dev); make sure you have the [Dart SDK](https://dart.dev/get-dart) installed. If you don't, go get it.
 
-2. After cloning or copying the project, use a console and access the `jjpack` project folder and run
+2. After cloning or copying the project, use a console to access the `jjpack` project folder and run
 ```bash
 dart pub get
 ```
