@@ -4,6 +4,8 @@
 
 Scans recursively for all files inside a given folder with a specific extension, zips them, and deletes originals.
 
+**NOTE**: This project is the executable standalone app that runs on Windows, Linux and macOS. For a NodeJS-based solutio try [JJscript](https://github.com/jagomf/jjscript).
+
 ## Usage
 
 Copy the executable file to the location you want to be processed, e.g., if you want `~/projects` (or `C:\Users\projects`) to be processed copy the file so that it is placed in `~/projects/jjscript.exe` (or `C:\Users\projects\jjscript.exe`).
@@ -34,10 +36,12 @@ Both arguments are optional.
 ```bash
 jjscript.exe jkl
 ```
+
 ##### Files with default `dwg` extension, keep after zip
 ```bash
 jjscript.exe nodelete
 ```
+
 ##### Files with `nrv` extension, keep after zip
 ```bash
 jjscript.exe nrv nodelete
